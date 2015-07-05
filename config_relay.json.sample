@@ -1,0 +1,10 @@
+{
+  "chatrooms": [
+    { "title": "chat room #1",
+      "letschat": "letschat room id",
+      "facebook": "facebook chat id" },
+    { "title": "chat room #2",
+      "letschat": "letschat room id",
+      "facebook": "facebook chat id" }
+  ]
+}

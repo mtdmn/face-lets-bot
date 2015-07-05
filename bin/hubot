@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+
+export HUBOT_LCB_PORT=5000
+export HUBOT_LCB_HOSTNAME=127.0.0.1
+export HUBOT_LCB_ROOMS=roomid1,roomid2
+export HUBOT_LCB_TOKEN=token1,token2
+
+exec node_modules/.bin/hubot --name "facebot" -a lets-chat "$@"

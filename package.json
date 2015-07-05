@@ -1,0 +1,27 @@
+{
+  "name": "face-lets-bot",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Arifumi Matsumoto <a@arifumi.net>",
+  "description": "A simple helpful robot",
+  "dependencies": {
+    "hubot-maps": "0.0.2",
+    "hubot-shipit": "~0.1.2",
+    "hubot-help": "~0.1.1",
+    "hubot-google-images": "~0.1.4",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-youtube": "~0.1.2",
+    "hubot-pugme": "~0.1.0",
+    "hubot-rules": "~0.1.0",
+    "hubot-google-translate": "~0.1.0",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-scripts": "~2.5.16",
+    "hubot-lets-chat": "0.0.5",
+    "facebook-chat-api": "0.2.2",
+    "hubot": "~2.11.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
